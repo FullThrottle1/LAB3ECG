@@ -1,0 +1,22 @@
+﻿  camera.cpp
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\camera.cpp(48,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\camera.cpp(52,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\camera.cpp(59,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\camera.cpp(63,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\camera.cpp(67,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\main.cpp(110,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\main.cpp(143,37): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  math_3d.cpp
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(27,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(28,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(58,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(58,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(59,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(59,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(60,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(60,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.2\LAB3.2\LAB3.2\math_3d.cpp(108,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  pipeline.cpp
+  Generating Code...
+  LAB3.2.vcxproj -> C:\ECG\LAB3\LAB3.2\LAB3.2\x64\Debug\LAB3.2.exe

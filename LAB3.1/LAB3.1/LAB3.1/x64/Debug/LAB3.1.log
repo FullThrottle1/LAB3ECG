@@ -1,0 +1,15 @@
+﻿  camera.cpp
+  main.cpp
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\main.cpp(93,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\main.cpp(126,37): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  math_3d.cpp
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(37,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(37,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(38,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(38,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(39,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(39,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.1\LAB3.1\LAB3.1\math_3d.cpp(87,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  pipeline.cpp
+  Generating Code...
+  LAB3.1.vcxproj -> C:\ECG\LAB3\LAB3.1\LAB3.1\x64\Debug\LAB3.1.exe
