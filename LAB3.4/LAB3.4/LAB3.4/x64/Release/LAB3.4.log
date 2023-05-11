@@ -136,7 +136,7 @@ C:\ECG\LAB3\LAB3.4\LAB3.4\LAB3.4\technique.cpp(47,37): warning C4267: '=': conve
 C:\ECG\LAB3\LAB3.4\LAB3.4\LAB3.4\texture.cpp(24,86): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
 C:\ECG\LAB3\LAB3.4\LAB3.4\LAB3.4\texture.cpp(24,131): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   Generating code
-  Previous IPDB not found, fall back to full compilation.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
   All 236 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   LAB3.4.vcxproj -> C:\ECG\LAB3\LAB3.4\LAB3.4\x64\Release\LAB3.4.exe

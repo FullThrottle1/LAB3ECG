@@ -50,11 +50,7 @@ public:
         m_camera.Up = Up;
     }
 
-
-    const Matrix4f& GetWVPTrans();
-
-    const Matrix4f& GetWorldTrans();
-
+    const Matrix4f* GetTrans();
 
 private:
     Vector3f m_scale;
@@ -75,9 +71,9 @@ private:
         Vector3f Up;
     } m_camera;
 
-    Matrix4f m_WVPtransformation;
-    Matrix4f m_WorldTransformation;
+    Matrix4f m_transformation;
 };
 
 
 #endif	/* PIPELINE_H */
+
