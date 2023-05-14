@@ -97,24 +97,31 @@ public:
 
         glClear(GL_COLOR_BUFFER_BIT);
 
-        m_scale += 0.01f;
+        m_scale += 0.1f;
 
-        SpotLight sl[2];
-        sl[0].DiffuseIntensity = 15.0f;
-        sl[0].Color = Vector3f(1.0f, 1.0f, 0.7f);
+        SpotLight sl[3];
+        sl[0].DiffuseIntensity = 25.0f;
+        sl[0].Color = Vector3f(1.0f, 0.0f, 0.0f);
         sl[0].Position = Vector3f(-0.0f, -1.9f, -0.0f);
-        sl[0].Direction = Vector3f(sinf(m_scale), 0.0f, cosf(m_scale));
+        sl[0].Direction = Vector3f(sinf(m_scale/10), 0.0f, cosf(m_scale/10));
         sl[0].Attenuation.Linear = 0.1f;
         sl[0].Cutoff = 20.0f;
 
-        sl[1].DiffuseIntensity = 5.0f;
-        sl[1].Color = Vector3f(0.0f, 1.0f, 1.0f);
-        sl[1].Position = m_pGameCamera->GetPos();
-        sl[1].Direction = m_pGameCamera->GetTarget();
+        sl[1].DiffuseIntensity = 25.0f;
+        sl[1].Color = Vector3f(0.0f, 1.0f, 0.0f);
+        sl[1].Position = Vector3f(-0.0f, -1.9f, -1.0f);
+        sl[1].Direction = Vector3f(sinf(m_scale/10), 0.0f, cosf(m_scale/10));
         sl[1].Attenuation.Linear = 0.1f;
-        sl[1].Cutoff = 10.0f;
+        sl[1].Cutoff = 20.0f;
 
-        m_pEffect->SetSpotLights(2, sl);
+        sl[2].DiffuseIntensity = 5.0f;
+        sl[2].Color = Vector3f(0.0f, 1.0f, 1.0f);
+        sl[2].Position = m_pGameCamera->GetPos();
+        sl[2].Direction = m_pGameCamera->GetTarget();
+        sl[2].Attenuation.Linear = 0.1f;
+        sl[2].Cutoff = 10.0f;
+
+        m_pEffect->SetSpotLights(3, sl);
 
 
         Pipeline p;

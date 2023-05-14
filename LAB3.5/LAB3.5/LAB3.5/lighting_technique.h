@@ -36,3 +36,4 @@ private:
 };
 
 #endif // LIGHTINGTECHNIQUE_H
+

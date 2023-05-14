@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lighting_technique.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_technique.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="math_3d.cpp">
@@ -33,14 +39,17 @@
     <ClCompile Include="texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="glut_backend.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="callbacks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut_backend.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="lighting_technique.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -54,15 +63,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="texture.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="glut_backend.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="callbacks.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="camera.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

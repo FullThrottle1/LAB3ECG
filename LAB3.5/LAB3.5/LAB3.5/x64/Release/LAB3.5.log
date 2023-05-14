@@ -1,4 +1,12 @@
-﻿  main.cpp
+﻿  camera.cpp
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\camera.cpp(48,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\camera.cpp(52,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\camera.cpp(59,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\camera.cpp(63,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\camera.cpp(67,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  glut_backend.cpp
+  lighting_technique.cpp
+  main.cpp
 D:\Users10\123\Desktop\ImageMagick-7.1.1-Q16-HDRI\include\Magick++\Drawable.h(465,18): warning C4251: 'Magick::DrawableBezier::_coordinates': class 'std::vector<Magick::Coordinate,std::allocator<Magick::Coordinate>>' needs to have dll-interface to be used by clients of class 'Magick::DrawableBezier'
 D:\Users10\123\Desktop\ImageMagick-7.1.1-Q16-HDRI\include\Magick++\Drawable.h(73,16): message : see declaration of 'std::vector<Magick::Coordinate,std::allocator<Magick::Coordinate>>'
 D:\Users10\123\Desktop\ImageMagick-7.1.1-Q16-HDRI\include\Magick++\Drawable.h(574,15): warning C4251: 'Magick::DrawablePushClipPath::_id': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushClipPath'
@@ -111,8 +119,24 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.3193
 D:\Users10\123\Desktop\ImageMagick-7.1.1-Q16-HDRI\include\Magick++\STL.h(1842,17): warning C4251: 'Magick::x11DisplayImage::_display': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Magick::x11DisplayImage'
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
 C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\main.cpp(201,1): warning C4305: 'argument': truncation from 'double' to 'float'
+  math_3d.cpp
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(27,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(28,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(58,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(58,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(59,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(59,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(60,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(60,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\math_3d.cpp(108,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  pipeline.cpp
+  technique.cpp
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\technique.cpp(47,37): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  texture.cpp
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\texture.cpp(24,86): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\ECG\LAB3\LAB3.5\LAB3.5\LAB3.5\texture.cpp(24,131): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   Generating code
-  Previous IPDB not found, fall back to full compilation.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
   All 241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   LAB3.5.vcxproj -> C:\ECG\LAB3\LAB3.5\LAB3.5\x64\Release\LAB3.5.exe

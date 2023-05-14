@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,27 +159,6 @@
       <AdditionalLibraryDirectories>D:\Users10\123\Desktop\ImageMagick-7.1.1-Q16-HDRI\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\camera.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\glut_backend.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\lighting_technique.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\math_3d.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\pipeline.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\technique.cpp" />
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\texture.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\callbacks.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\camera.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\glut_backend.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\lighting_technique.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\math_3d.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\pipeline.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\technique.h" />
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\texture.h" />
-    <ClInclude Include="util.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

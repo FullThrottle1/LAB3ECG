@@ -15,54 +15,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\math_3d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\pipeline.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\technique.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\texture.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\lighting_technique.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\glut_backend.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_technique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="technique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\math_3d.h">
+    <ClInclude Include="callbacks.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\pipeline.h">
+    <ClInclude Include="camera.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\technique.h">
+    <ClInclude Include="glut_backend.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\texture.h">
+    <ClInclude Include="lighting_technique.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\lighting_technique.h">
+    <ClInclude Include="math_3d.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\glut_backend.h">
+    <ClInclude Include="pipeline.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\callbacks.h">
+    <ClInclude Include="technique.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\LAB3.4\LAB3.4\LAB3.4\camera.h">
+    <ClInclude Include="texture.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="util.h">
